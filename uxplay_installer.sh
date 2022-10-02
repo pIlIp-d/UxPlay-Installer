@@ -14,7 +14,7 @@ fi
 # Install packages
 apt-get install cmake -y
 
-apt-get install libssl-dev libavahi-compat-libdnssd-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav
+apt-get install libssl-dev libavahi-compat-libdnssd-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav -y
 apt-get install gstreamer1.0-vaapi -y
 
 # clone repo
@@ -28,7 +28,7 @@ cd build
 # build UxPlay
 cmake ..
 if ! test -f "./MakeFile"; then
-    apt-get install gstreamer1.0-plugins-bad
+    apt-get install gstreamer1.0-plugins-bad -y
     cmake ..
 fi
 make
