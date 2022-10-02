@@ -1,5 +1,5 @@
 # UxPlay-Installer
-Ubuntu installer for Airplay utility UxPlay
+Ubuntu installer for Airplay utility [UxPlay](https://github.com/FDH2/UxPlay)
 
 download the installer ad run it in console.
 
