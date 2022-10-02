@@ -1,7 +1,7 @@
 # UxPlay-Installer
 Ubuntu installer for Airplay utility [UxPlay](https://github.com/FDH2/UxPlay)
 
-download the installer ad run it in console.
+download the installer and run it in console.
 
 # change shell type
 
