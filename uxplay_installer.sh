@@ -16,6 +16,7 @@ apt-get install cmake -y
 
 apt-get install libssl-dev libavahi-compat-libdnssd-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav -y
 apt-get install gstreamer1.0-vaapi -y
+apt-get install libplist-dev -y
 
 # clone repo
 [ ! -d ./UxPlay ] && git clone https://github.com/FDH2/UxPlay
